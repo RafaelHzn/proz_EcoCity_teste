@@ -1,0 +1,227 @@
+* {
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+  }
+  
+  body{
+    margin:0;
+    padding:0;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    box-sizing:border-box;
+    overflow: hidden;
+    background-color: #417cb7;
+    position: fixed;
+  }
+  
+    .logo {
+      padding: 20px 30px;
+    }
+  
+    .menu-nav {
+      padding: 0;
+    }
+  
+      .menu-nav a {
+        display:inline;
+        color: white;
+        height: 100%;
+        width: 80px;
+        margin: 10px;
+        text-align: center;
+      }
+  
+        .menu-nav a:hover {
+          display:inline;
+          height: 100%;
+          width: 80px;
+          margin: 10px;
+          background-color: #433b3b;
+        }
+  
+  .main_home {
+    align-items: center;
+    padding: 100px;
+  }
+  
+    .icones_home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin: 30px 0 30px 0;
+    }
+  
+    .icones_home a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .slider_home {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .texto_home {
+      text-align: center;
+      font-size: 1.25rem;
+      margin-top: 30px;
+    }
+  
+  .main_cidades {
+    align-items: center;
+    padding: 100px;
+  }
+  
+    .recursos_naturais {
+      display: flex;
+      align-items: center;
+    }
+  
+    .transporte {
+      display: flex;
+    }
+  
+    .residuos {
+      display: flex;
+      align-items: center;
+    }
+  
+    .area_verde {
+      display: flex;
+      align-items: center;
+    }
+  
+  .main_empresas {
+    align-items: center;
+    padding: 100px;
+    text-align: center;
+  }
+  
+    .banner_empresas {
+      border-radius: 15%;
+    }
+  
+  .main_recursos {
+    align-items: center;
+    padding: 100px;
+    text-align: center;
+  }
+  
+    .banner_recursos {
+      border-radius: 15%;
+    }
+  
+  .main_contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+  }
+  
+    .contatos {
+      width: 30vw;
+      margin-top: 80px;
+      margin: 0 30px 30px 30px;
+      padding: 0;
+      text-align: center;
+    }
+  
+    .formulario {
+      width: 30vw;
+      margin-top: 80px;
+      margin: 0 30px 30px 30px;
+      padding: 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #000000;
+    }
+  
+    .h1_contato {
+      font-size: x-large;
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+    }
+  
+    input[type="submit"],
+    input[type="reset"] {
+      width: 49.5%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+  
+    input[type="reset"] {
+      background-color: #f44336;
+      color: white;
+      cursor: pointer;
+    }
+  
+  .voltar {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+    .voltar a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #417cb7;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+  
+    .voltar a:hover {
+      background-color: #336ba3;
+    }
+  
+  footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+  color:white;
+  background-color: #433b3b;
+  }
