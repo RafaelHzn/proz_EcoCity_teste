@@ -14,33 +14,36 @@
 </head>
 
 <body>
-
-    <header>
-        <a id="início"></a>
-
-        <ul class="menu">
-
-            <!-- Logo -->
-            <div class=logo><a href="/index.html"><img src="/img/logo_eco_city.png" alt="logo_ecocity" height="30"></a>
-            </div>
-
-            <!-- Navbar -->
-            <div class="menu-nav">
-                <a href="/index.html">Home</a>
-                <a href="cidadades.html">Cidades</a>
-                <a href="empresas.html">Empresas</a>
-                <a href="recursos.html">Recursos</a>
-                <a>Contato</a>
-            </div>
-        </ul>
+    <div id="inicio"></div>
+    <header class="cabecalho">
+        <div class=logo>
+            <a href="/index.html"><img src="/img/logo_eco_city.png" alt="logo_ecocity" height="30"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="cidadades.html">Cidades</a>
+                </li>
+                <li>
+                    <a href="empresas.html">Empresas</a>
+                </li>
+                <li>
+                    <a href="recursos.html">Recursos</a>
+                </li>
+                <li>
+                    <a>Contato</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="main_contato">
-
-        <div class="formulário">
+    <section class="contato" id="contato">
+        <div class="formulario">
             <form action="" method="post">
-
-                <h1 class="h1_contato">ENTRE EM CONTATO</h1>
+                <h1 class="h1-contato">ENTRE EM CONTATO</h1>
 
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="Nome" placeholder="Digite seu nome" required>
@@ -52,43 +55,43 @@
                 <input type="tel" id="telefone" name="Telefonel" placeholder="Digite seu telefone" required>
 
                 <label for="mensagem">Mensagem:</label>
-                <textarea id="message" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem"
-                    required></textarea>
+                <textarea id="message" name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem" required></textarea>
 
                 <input type="submit" id="enviar" value="Enviar">
                 <input type="reset" id="limpar" value="Limpar">
-
             </form>
         </div>
-
-        <div class="contatos">
-            <p>ecocity@msn.com.br</p>
-            <p>São Paulo - SP</p>
-            <p>+55 11 9999-9999</p>
-
-            <br />
-            <br />
-
-            <nav>
-                <a href="https://www.facebook.com/" target="_blank"><img src="/img/logo_facebook.png" alt="Facebook"
-                        height="30"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="/img/logo_instagram.png" alt="Instagram"
-                        height="30"></a>
-                <a href="https://www.twitter.com/" target="_blank"><img src="/img/logo_twitter.png" alt="Twitter"
-                        height="30"></a>
-                <a href="https://www.youtube.com/" target="_blank"><img src="/img/logo_youtube.png" alt="Youtube"
-                        height="25"></a>
-            </nav>
-
+        <div class="info">
+            <ul class="info-de-contato">
+                <li>
+                    <p>ecocity@msn.com.br</p>
+                </li>
+                <li>
+                    <p>São Paulo - SP</p>
+                </li>
+                <li>
+                    <p>+55 11 9999-9999</p>
+                </li>
+            </ul>
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="/img/logo_facebook.png" alt="Facebook" height="30"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="/img/logo_instagram.png" alt="Instagram" height="30"></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="/img/logo_twitter.png" alt="Twitter" height="30"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="/img/logo_youtube.png" alt="Youtube" height="25"></a>
+                </li>                
+            </ul>
         </div>
-
-    </main>
+    </section>
 
     <footer>
-
-        <!-- Rodapé -->
         <p>© 2023 Copyright: ecocity.com</p>
-
     </footer>
 
 </body>

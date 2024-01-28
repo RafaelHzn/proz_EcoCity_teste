@@ -14,36 +14,41 @@
 </head>
 
 <body>
-
-    <header>
-        <a id="início"></a>
-
-        <ul class="menu">
-            <!-- Logo -->
-            <div class=logo><a href="/index.html"><img src="/img/logo_eco_city.png" alt="logo_ecocity" height="30"></a>
-            </div>
-
-            <!-- Navbar -->
-            <div class="menu-nav">
-                <a href="/index.html">Home</a>
-                <a href="cidadades.html">Cidades</a>
-                <a href="empresas.html">Empresas</a>
-                <a href="recursos.html">Recursos</a>
-                <a href="contato.html">Contato</a>
-            </div>
-        </ul>
+    <div id="inicio"></div>
+    <header class="cabecalho">
+        <div class=logo>
+            <a href="/index.html"><img src="/img/logo_eco_city.png" alt="logo_ecocity" height="30"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a>Cidades</a>
+                </li>
+                <li>
+                    <a href="empresas.html">Empresas</a>
+                </li>
+                <li>
+                    <a href="recursos.html">Recursos</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="main_cidades">
+    <main class="cidades" id="cidades">
 
-        <!-- Slider -->
-        <img class="banner_cidades_01" src="/img/banner_cidades.png" alt="banner cidades" width="100%">
+        <img class="banner-cidades" src="/img/cidades_sustentaveis.jpg" alt="banner cidades" width="100%">
 
         <ul class="cidades_sustentaveis">
-            <!-- Título -->
+
             <h1 class="cidades_titulo">AS CIDADES SUSTENTÁVEIS DO FUTURO</h1>
 
-            <img class="banner_cidades_02" src="/img/cidades_sustentaveis.jpg" alt="cidades sustentáveis" height="400">
+            <img class="banner_cidades_02" src="/img/banner_cidades.png" alt="cidades sustentáveis" height="400">
 
             <p class="cidades_texto">Quando falamos em cidades do futuro, provavelmente você pensa em como a tecnologia
                 estará ainda mais presente no nosso cotidiano, com robôs e carros que voam. Mas pensar sobre esse tema
@@ -100,18 +105,13 @@
             </div>
 
         </ul>
-        <!-- Fim de Pilares -->
 
-        <!-- Back to Top -->
-        <p class=voltar><a href="#início">Voltar ao início</a></p>
+        <p class=bt-voltar><a href="#início">Voltar ao início</a></p>
 
     </main>
 
     <footer>
-
-        <!-- Rodapé -->
         <p>© 2023 Copyright: ecocity.com</p>
-
     </footer>
 
 </body>

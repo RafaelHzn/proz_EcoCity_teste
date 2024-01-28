@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/ecocity_favicon.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <link rel="icon" href="/img/ecocity_favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto&display=swap" rel="stylesheet">
@@ -14,57 +14,94 @@
 </head>
 
 <body>
-
-    <header>
-        <a id="início"></a>
-
-        <ul class="menu">
-            <!-- Logo -->
-            <div class=logo><a href="index.html"><img src="img/logo_eco_city.png" alt="logo_ecocity" height="30"></a>
-            </div>
-
-            <!-- Navbar -->
-            <div class="menu-nav">
-                <a>Home</a>
-                <a href="pages/cidadades.html">Cidades</a>
-                <a href="pages/empresas.html">Empresas</a>
-                <a href="pages/recursos.html">Recursos</a>
-                <a href="pages/contato.html">Contato</a>
-            </div>
-        </ul>
+    <div id="inicio"></div>
+    <header class="cabecalho">
+        <div class=logo>
+            <a href="/index.html"><img src="/img/logo_eco_city.png" alt="logo_ecocity" height="30"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./pages/cidadades.html">Cidades</a>
+                </li>
+                <li>
+                    <a href="./pages/empresas.html">Empresas</a>
+                </li>
+                <li>
+                    <a href="./pages/recursos.html">Recursos</a>
+                </li>
+                <li>
+                    <a href="./pages/contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="main_home">
+    <main class="home" id="home">
 
-        <!-- Nav -->
-        <nav class="icones_home">
-            <a><img src="img/icone_cidade.png" alt="ícone 01" height="40"> Entre em contato</a>
-            <a><img src="img/icone_recursos.png" alt="ícone 02" height="40"> Recursos Sustentáveis</a>
-            <a><img src="img/icone_cidade.png" alt="ícone 03" height="40"> Cidades Sustentáveis</a>
-            <a><img src="img/icone_empresa.png" alt="ícone 04" height="40"> Empresas que se importam</a>
-        </nav>
+        <img class="slider-home" src="img/painel_solar_3.jpg" alt="painel_solar_2"></a>
 
-        <!-- Slider -->
-        <nav class="slider_home">
-            <a><img src="img/painel_solar_1.jpg" alt="painel_solar_1" width="450"></a>
-            <a><img src="img/painel_solar_2.jpg" alt="painel_solar_2" width="450"></a>
-            <a><img src="img/painel_solar_3.jpg" alt="painel_solar_3" width="450"></a>
-        </nav>
-
-        <p class="texto_home">Cidades e comunidades sustentáveis promovem o equilíbrio entre crescimento urbano e
-            preservação ambiental, proporcionando qualidade de vida aos seus habitantes e contribuindo para um futuro
-            mais resiliente e harmonioso.</p>
-
-        <!-- Back to Top -->
-        <p class=voltar><a href="#início">Voltar ao início</a></p>
-
+        <div class="conteudo">
+            <h1 class="titulo">
+                Cidades Ecológicas
+            </h1>
+            
+            <p class="texto">
+                Comunidades sustentáveis promovem o equilíbrio entre crescimento urbano e preservação ambiental, proporcionando qualidade de vida aos seus habitantes e contribuindo para um futuro mais resiliente e harmonioso.
+            </p>
+        </div>
     </main>
+    <section class="" id="">
+        <div class="">
+            <img class="" src="" alt="" />
 
+            <div class="">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nam quae, eius quibusdam consequatur soluta consectetur perferendis id natus dolorum voluptas minus inventore aliquam? Vitae, id! Totam laborum beatae eveniet!
+                </p>
+                <ul class="">
+                    <li>
+                        <img src="" alt="">
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nam quae, eius quibusdam consequatur soluta consectetur perferendis id natus dolorum voluptas minus inventore aliquam? Vitae, id! Totam laborum beatae eveniet!
+                </p>
+                <ul class="">
+                    <li>
+                        <img src="" alt="">
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <footer>
-
-        <!-- Rodapé -->
         <p>© 2023 Copyright: ecocity.com</p>
-
     </footer>
 
 </body>
