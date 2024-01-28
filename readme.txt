@@ -29,6 +29,9 @@ painel_solar_02
 painel_solar_03
 <a href="https://www.freepik.com/free-photo/photovoltaic-solar-power-panel-field-green-clean-alternative-power-energy-concept-ai-generative_41199730.htm#query=energia%20solar&position=6&from_view=search&track=ais&uuid=2d5a5af6-f47c-48f9-bdfa-f3a1838fae9" title="a Image by chandlervid85">on Freepik</a>
 
+cidades-residuos-solidos
+<a href="https://pixabay.com/pt/users/shirley810-9355/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=57136">Shirley Hirst</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=57136">Pixabay</a>
+
 banner_empresas
 <a href="https://pixabay.com/pt/users/nattanan23-6312362/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2696229">Nattanan Kanchanaprat</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2696229">Pixabay</a>
 	
