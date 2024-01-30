@@ -90,16 +90,16 @@ body {
 }
 
 .home .conteudo .titulo {
-  font-size: 60px;
   color: white;
+  font-size: 60px;
   margin-top: 100px;
 }
 
 .home .conteudo .texto {
-  font-size: 20px;
-  text-align: justify;
-  line-height: 1.6;
   color: white;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.6;
 }
 
 .comunidades {
@@ -125,15 +125,15 @@ body {
   display:flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;;
+  justify-content: space-around;
   gap: 15px;
   width: 100%;
   padding: 15px 0;
 }
 
 .comunidades .comunidades-quadro li img {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 150px;
+  max-height: 150px;
   margin: 30px;
 }
 
@@ -149,17 +149,15 @@ body {
 .parceiros-quadro {
   display:flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  gap: 15px;
-  width: 100%;
-  padding: 50px 0;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 10px;
 }
 
 .parceiros .parceiros-quadro li img {
-  max-height: 200px;
-  max-width: 200px;
-  margin: 30px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0 auto;
 }
 
 .parceiros h3 {
@@ -269,21 +267,127 @@ body {
 }
 
 .empresas {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.container-cima {
+  display: flex;
+}
+
+.container-baixo {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  padding: 0 1rem;
+}
+
+.box img {
+  max-width: 100%;
+  max-height: 60%;
+}
+
+.energia {
+  align-items: center;
+  gap: 15px;
+}
+
+.energia-renovavel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 15px;
+}
+
+.energia-renovavel-img {
+  border-radius: 10%;
+}
+
+.energia-texto {
+  margin: 0 30px;
   text-align: center;
 }
 
-.banner_empresas {
-  border-radius: 15%;
+.energia-titulo {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 30px;
+  max-width: 100%;
 }
 
-.recursos {
-  align-items: center;
+.energia-paragrafo {
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.fontes-energeticas {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 15px;
+}
+
+.fontes-energeticas h4 {
+  font-weight: bolder;
+  font-size: 18px;
   text-align: center;
+  padding: 15px 0;
 }
 
-.banner_recursos {
+.fontes-energeticas img {
   border-radius: 15%;
+  width: 100%;
+  max-height: 200px;
+  padding-bottom: 15px;
+}
+
+.recursos-naturais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin: 1rem;
+  width: 90%;
+}
+
+.transporte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin: 1rem;
+  width: 90%;
+}
+
+.residuos-solidos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin: 1rem;
+  width: 90%;
+}
+
+.areas-verdes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin: 1rem;
+  width: 90%;
 }
 
 .contato {
@@ -348,7 +452,7 @@ input[type="submit"], input[type="reset"] {
 }
 
 input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #417cb7;
   color: white;
   cursor: pointer;
 }
