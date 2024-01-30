@@ -20,20 +20,26 @@ REFERÊNCIAS / CRÉDITOS:
 Ícone 04
 <a href="https://www.flaticon.com/br/icones-gratis/industria" title="indústria ícones">Indústria ícones criados por berkahicon - Flaticon</a>
 
-painel_solar_01
-<a href="https://www.neosolar.com.br/aprenda/saiba-mais/sistemas-de-energia-solar-fotovoltaica-e-seus-componentes" title="Site neosolar">on neosolar</a>
-
-painel_solar_02
+banner-home
 <a href="https://www.freepik.com/free-photo/solar-panels-roof-solar-cell_21520477.htm#query=energia%20solar&position=0&from_view=search&track=ais&uuid=2d5a5af6-f47c-48f9-bdfa-f3a1838fae9" title="a Image by tawatchai07">on Freepik</a>
 
-painel_solar_03
-<a href="https://www.freepik.com/free-photo/photovoltaic-solar-power-panel-field-green-clean-alternative-power-energy-concept-ai-generative_41199730.htm#query=energia%20solar&position=6&from_view=search&track=ais&uuid=2d5a5af6-f47c-48f9-bdfa-f3a1838fae9" title="a Image by chandlervid85">on Freepik</a>
-
-cidades-residuos-solidos
+residuos-solidos
 <a href="https://pixabay.com/pt/users/shirley810-9355/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=57136">Shirley Hirst</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=57136">Pixabay</a>
 
 banner_empresas
 <a href="https://pixabay.com/pt/users/nattanan23-6312362/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2696229">Nattanan Kanchanaprat</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2696229">Pixabay</a>
-	
+
+banner-energia
+Imagem de <a href="https://br.freepik.com/fotos-gratis/objetivos-de-desenvolvimento-sustentavel-natureza-morta_38687412.htm#query=energias%20limpas&position=10&from_view=search&track=ais&uuid=ef483921-dbff-4747-bca9-f6877e7ae046">Freepik</a>
+
+energia-solar
+<a href="https://www.freepik.com/free-photo/photovoltaic-solar-power-panel-field-green-clean-alternative-power-energy-concept-ai-generative_41199730.htm#query=energia%20solar&position=6&from_view=search&track=ais&uuid=2d5a5af6-f47c-48f9-bdfa-f3a1838fae9" title="a Image by chandlervid85">on Freepik</a>
+
+energia-hidrelétrica
+<a href="https://br.freepik.com/fotos-gratis/imagem-da-represa-shasta-cercada-por-estradas-e-arvores-com-um-lago-e-montanhas_10185926.htm#query=energia%20hidrel%C3%A9trica&position=0&from_view=search&track=ais&uuid=46e2da37-f702-40ea-b3cc-509800ce52f8">Imagem de wirestock</a> no Freepik
+
+energia-eólica
+<a href="https://br.freepik.com/fotos-gratis/conceito-de-tecnologia-de-eletricidade-de-energia-verde-de-turbina_3001604.htm#query=energia%20e%C3%B3lica&position=3&from_view=search&track=ais&uuid=acdfc6cd-993c-477e-935a-871ede535787">Imagem de rawpixel.com</a> no Freepik
+
 banner_recursos
 <a href="https://pixabay.com/pt/users/nature_design-16152932/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5241253">eko pramono</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5241253">Pixabay</a>

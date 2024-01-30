@@ -68,7 +68,7 @@ body {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, .7) 35%, transparent 65%);
 }
 
-.home .slider-home {
+.home .banner-home {
   width: 100%;
   object-fit: cover;
 }
@@ -270,6 +270,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
+  padding: 30px 150px;
+  gap: 30px;
+}
+
+.empresas-titulo {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 30px;
+  max-width: 100%;
+}
+
+.empresas-texto {
+  margin: 0 30px;
+  text-align: center;
 }
 
 .container-cima {
@@ -335,7 +350,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 30px;
   gap: 15px;
 }
@@ -354,40 +369,31 @@ body {
   padding-bottom: 15px;
 }
 
-.recursos-naturais {
+.energia-solar {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
   margin: 1rem;
-  width: 90%;
+  width: 25%;
 }
 
-.transporte {
+.energia-hidreletrica {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
   margin: 1rem;
-  width: 90%;
+  width: 25%;
 }
 
-.residuos-solidos {
+.energia-eolica {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
   margin: 1rem;
-  width: 90%;
-}
-
-.areas-verdes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-  margin: 1rem;
-  width: 90%;
+  width: 25%;
 }
 
 .contato {
