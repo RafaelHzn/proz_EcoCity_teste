@@ -1,7 +1,8 @@
 # EcoCity
+
 Olá, Bem vindo ao meu projeto de site.
 
-![image](https://github.com/RafaelHzn/proz_EcoCity_teste/blob/main/img/EcoCity.jpg)
+![image]("https://github.com/RafaelHzn/proz_EcoCity_teste/blob/main/img/EcoCity.jpg")
 
 ## Projeto desenvolvido no curso da PROZ Educacional / Portal Tech Turma 19
 * Início do Projeto: Dezembro de 2023.
