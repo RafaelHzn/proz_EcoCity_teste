@@ -1,3 +1,9 @@
+:root {
+  --cor-primaria: #417CB7;
+  --cor-secundaria: #FFFFFF;
+  --cor-terciaria: #433B3B;
+}
+
 * {
   font-family: 'Maven Pro', sans-serif;
   margin: 0;
@@ -15,18 +21,27 @@ a {
 }
 
 .cabecalho {
-  height: 80px;
-  background-color: #417cb7;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 80px 0 80px;
-  border-bottom: 3px solid #417cb7;
+  height: 80px;
+  padding: 0 5%;
+  background-color: var(--cor-primaria);
+  border-bottom: 3px solid var(--cor-primaria);
 }
 
-.cabecalho .logo {
+.cabecalho__logo {
   display: flex;
+  height: 70%;
   gap: 15px;
+}
+
+.cabecalho__logo a {
+  height: 100%;
+}
+
+.cabecalho__logo a img {
+  height: 100%;
 }
 
 .cabecalho .menu {
@@ -35,15 +50,15 @@ a {
 }
 
 .cabecalho .menu li a {
+  color: var(--cor-secundaria);
   display: inline;
-  color: white;
   padding: 30px;
   font-size: 16px;
   text-align: center;
 }
 
 .cabecalho .menu li a:hover {
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid var(--cor-secundaria);
 }
 
 body {
@@ -90,20 +105,20 @@ body {
 }
 
 .home .conteudo .titulo {
-  color: white;
-  font-size: 60px;
+  color: var(--cor-secundaria);
+  font-size: 4rem;
   margin-top: 100px;
 }
 
 .home .conteudo .texto {
   color: white;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: left;
   line-height: 1.6;
 }
 
 .comunidades {
-  background-color: #417cb7;
+  background-color: var(--cor-primaria);
   text-align: center;
   width: 100%;
   height: auto;
@@ -113,12 +128,12 @@ body {
 
 .comunidades h3 {
   padding: 15px 0;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .comunidades p {
   padding: 15px 0;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .comunidades-quadro {
@@ -138,7 +153,7 @@ body {
 }
 
 .parceiros {
-  background-color: white;
+  background-color: var(--cor-secundaria);
   text-align: center;
   width: 100%;
   height: auto;
@@ -162,12 +177,12 @@ body {
 
 .parceiros h3 {
   padding: 15px 0;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .parceiros p {
   padding: 15px 0;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .cidades {
@@ -194,14 +209,14 @@ body {
 }
 
 .cidades-titulo {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bolder;
   padding: 30px;
   max-width: 100%;
 }
 
 .cidades-paragrafo {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: justify;
   margin-left: 15px;
   margin-right: 15px;
@@ -218,7 +233,7 @@ body {
 
 .pilares h4 {
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 1.1rem;
   text-align: center;
   padding: 15px 0;
 }
@@ -266,49 +281,6 @@ body {
   width: 90%;
 }
 
-.empresas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-  padding: 30px 150px;
-  gap: 30px;
-}
-
-.empresas-titulo {
-  font-size: 30px;
-  font-weight: bolder;
-  padding: 30px;
-  max-width: 100%;
-}
-
-.empresas-texto {
-  margin: 0 30px;
-  text-align: center;
-}
-
-.container-cima {
-  display: flex;
-}
-
-.container-baixo {
-  display: flex;
-}
-
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 250px;
-  padding: 0 1rem;
-}
-
-.box img {
-  max-width: 100%;
-  max-height: 60%;
-}
-
 .energia {
   align-items: center;
   gap: 15px;
@@ -333,14 +305,14 @@ body {
 }
 
 .energia-titulo {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bolder;
   padding: 30px;
   max-width: 100%;
 }
 
 .energia-paragrafo {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: justify;
   margin-left: 15px;
   margin-right: 15px;
@@ -357,7 +329,7 @@ body {
 
 .fontes-energeticas h4 {
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 1rem;
   text-align: center;
   padding: 15px 0;
 }
@@ -396,6 +368,48 @@ body {
   width: 25%;
 }
 
+.empresas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding: 5%;
+  gap: 10px;
+}
+
+.empresas-titulo {
+  font-size: 2rem;
+  font-weight: bolder;
+  max-width: 100%;
+}
+
+.empresas-texto {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.container-cima {
+  display: flex;
+}
+
+.container-baixo {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  padding: 0 1rem;
+}
+
+.box img {
+  max-width: 100%;
+  max-height: 60%;
+}
+
 .contato {
   display: flex;
   flex-direction: row;
@@ -407,8 +421,8 @@ body {
 }
 
 .h1-contato {
-  color: #333;
-  font-size: x-large;
+  color: var(--cor-terciaria);
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -445,7 +459,7 @@ textarea {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid var(--cor-terciaria);
   box-sizing: border-box;
   resize: none;
 }
@@ -453,19 +467,19 @@ textarea {
 input[type="submit"], input[type="reset"] {
   width: 49.5%;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--cor-terciaria);
   border-radius: 4px;
 }
 
 input[type="submit"] {
-  background-color: #417cb7;
-  color: white;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
   cursor: pointer;
 }
 
 input[type="reset"] {
-  background-color: #f44336;
-  color: white;
+  background-color: #F44336;
+  color: var(--cor-secundaria);
   cursor: pointer;
 }
 
@@ -478,8 +492,8 @@ input[type="reset"] {
 .bt-voltar a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #417cb7;
-  color: white;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
   text-decoration: none;
   text-align: center;
   border-radius: 5px;
@@ -487,12 +501,12 @@ input[type="reset"] {
 }
 
 .bt-voltar a:hover {
-  background-color: #336ba3;
+  background-color: var(--cor-primaria);
 }
 
 footer {
-  background-color: #433b3b;
-  color: white;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-secundaria);
   bottom: 0;
   height: 50px;
   width: 100%;
