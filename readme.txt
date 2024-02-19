@@ -1,18 +1,25 @@
+# EcoCity
+Olá, Bem vindo ao meu projeto de site.
 
+![image](https://github.com/RafaelHzn/proz_EcoCity_teste/blob/main/img/EcoCity.jpg)
 
+## Projeto desenvolvido no curso da PROZ Educacional / Portal Tech Turma 19
+* Início do Projeto: Dezembro de 2023.
+* Previsão de conclusão: Março de 2024.
+
+## Ferramentas utilizadas:
+* Javascript
+* HTML
+* CSS
+
+## Feito por:
+### Rafael Ferreira
+### Linkedin: https://www.linkedin.com/in/rafaelhzn/
 
 <br>
 <br>
 
-# Projeto desenvolvido no curso da PROZ Educacional / Portal Tech Turma 19
-## Desenvolvimento de desenvolvimento de site usando: HTML CSS e Javascript.
-## Início do Projeto: Dezembro de 2023.
-## Previsão de conclusão: Março de 2024.
-
-<br>
-<br>
-
-# REFERÊNCIAS:
+## REFERÊNCIAS:
 
 <a href="https://www.flaticon.com/br/icones-gratis/sustentabilidade" title="sustentabilidade ícones">Sustentabilidade ícones criados por surang - Flaticon</a>
 
