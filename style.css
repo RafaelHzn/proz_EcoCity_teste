@@ -1,8 +1,15 @@
+/* -------------------- PSEUDO-CLASSE CORES -------------------- */
+
 :root {
   --cor-primaria: #417CB7;
   --cor-secundaria: #FFFFFF;
   --cor-terciaria: #433B3B;
 }
+
+/* -------------------------------------------------------------- */
+
+
+/* --------------------------- RESET --------------------------- */
 
 * {
   font-family: 'Maven Pro', sans-serif;
@@ -19,6 +26,19 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+body {
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------- CABEÇALHO -------------------------- */
 
 .cabecalho {
   display: flex;
@@ -61,13 +81,10 @@ a {
   border-bottom: 3px solid var(--cor-secundaria);
 }
 
-body {
-  overflow: auto;
-}
+/* -------------------------------------------------------------- */
 
-::-webkit-scrollbar {
-  display: none;
-}
+
+/* ------------------------ PÁGINA HOME ------------------------ */
 
 .home {
   display: flex;
@@ -185,6 +202,11 @@ body {
   font-size: 1.5rem;
 }
 
+/* -------------------------------------------------------------- */
+
+
+/* ----------------------- PÁGINA CIDADES ----------------------- */
+
 .cidades {
   display: flex;
   flex-direction: column;
@@ -288,6 +310,11 @@ body {
   width: 90%;
 }
 
+/* -------------------------------------------------------------- */
+
+
+/* ----------------------- PÁGINA ENERGIA ----------------------- */
+
 .energia {
   display: flex;
   flex-direction: column;
@@ -382,6 +409,11 @@ body {
   width: 25%;
 }
 
+/* -------------------------------------------------------------- */
+
+
+/* ---------------------- PÁGINA EMPRESAS ---------------------- */
+
 .empresas {
   display: flex;
   flex-direction: column;
@@ -423,6 +455,11 @@ body {
   max-width: 100%;
   max-height: 60%;
 }
+
+/* -------------------------------------------------------------- */
+
+
+/* ----------------------- PÁGINA CONTATO ----------------------- */
 
 .contato {
   display: flex;
@@ -497,6 +534,11 @@ input[type="reset"] {
   cursor: pointer;
 }
 
+/* -------------------------------------------------------------- */
+
+
+/* ------------------------ BOTÃO VOLTAR ------------------------ */
+
 .bt-voltar {
   text-align: center;
   margin: 50px 0;
@@ -517,6 +559,11 @@ input[type="reset"] {
   background-color: var(--cor-primaria);
 }
 
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------- RODAPÉ -------------------------- */
+
 footer {
   background-color: var(--cor-terciaria);
   color: var(--cor-secundaria);
@@ -529,6 +576,10 @@ footer {
   text-align: center;
 }
 
+/* -------------------------------------------------------------- */
+
+
+/* ----------------------- RESPONSIVIDADE ----------------------- */
 
 @media (min-width: 1680px) {
   .cidades-paragrafo {
@@ -538,6 +589,9 @@ footer {
     font-size: 1.4rem;
   }
 }
+
+/* -------------------------------------------------------------- */
+
 
 /* @media (max-width: 1080px) {
   .cabecalho {
