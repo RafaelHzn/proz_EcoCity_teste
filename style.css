@@ -52,7 +52,7 @@ body {
 
 .cabecalho__logo {
   display: flex;
-  height: 80%;
+  height: 60%;
   gap: 15px;
 }
 
@@ -73,7 +73,7 @@ body {
   color: var(--cor-secundaria);
   display: inline;
   padding: 30px;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -462,76 +462,97 @@ body {
 /* ----------------------- PÁGINA CONTATO ----------------------- */
 
 .contato {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
-  min-height: calc(100vh - 130px);
-  gap: 30px
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    min-height: calc(100vh - 130px);
+    gap: 30px
 }
 
 .h1-contato {
-  color: var(--cor-terciaria);
-  font-size: 2rem;
-  text-align: center;
+    color: #417cb7;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
-  height: 100;
-  gap: 30px;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100;
+    gap: 30px;
+    text-align: center;
 }
 
 .info-de-contato {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  gap: 15px;
-  margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.icone-de-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1rem;
 }
 
 .redes-sociais {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.redes-sociais-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
 }
 
 label {
-  display: block;
-  margin-bottom: 8px;
+    display: block;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 input[type="text"], input[type="email"], input[type="tel"],
 textarea {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid var(--cor-terciaria);
-  box-sizing: border-box;
-  resize: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
 }
 
 input[type="submit"], input[type="reset"] {
-  width: 49.5%;
-  padding: 8px;
-  border: 1px solid var(--cor-terciaria);
-  border-radius: 4px;
+    width: 49.5%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 input[type="submit"] {
-  background-color: var(--cor-primaria);
-  color: var(--cor-secundaria);
-  cursor: pointer;
+    background-color: #417cb7;
+    color: white;
+    cursor: pointer;
 }
 
 input[type="reset"] {
-  background-color: #F44336;
-  color: var(--cor-secundaria);
-  cursor: pointer;
+    background-color: #ee6970;
+    color: white;
+    cursor: pointer;
 }
 
 /* -------------------------------------------------------------- */
