@@ -523,6 +523,7 @@ label {
     margin-top: 15px;
     font-size: 1rem;
     font-weight: 700;
+    position: relative;
 }
 
 label:not(:first-of-type){

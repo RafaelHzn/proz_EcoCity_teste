@@ -47,7 +47,7 @@ let btnEnviar = document.querySelector('button[type="submint"]')
 let btnLimpar = document.querySelector('button[type="submint"]')
 
 // --- Exibit e ocultar pop-up de campos obrigatórios
-function togglePopup(input, label) {
+function mostrarPopup(input, label) {
     // Exibir popup de um campo obrigatório
     input.addEventListener ("focus", () => {
         label.classList.add("required-popup");
@@ -70,11 +70,10 @@ function estilizarInputIncorreto(input, helper) {
     helper.classList.add("visible");
 }
 
-togglePopup(nomeInput, nomeLabel);
-togglePopup(emailInput, emailLabel);
-togglePopup(telInput, telLabel);
-togglePopup(messageInput, messageLabel);
-togglePopup(confirmamessageInput, confirmamessageLabel);
+mostrarPopup(nomeInput, nomeLabel);
+mostrarPopup(emailInput, emailLabel);
+mostrarPopup(telInput, telLabel);
+mostrarPopup(messageInput, messageLabel);
 
 // --- Validação de nome
 nomeInput.addEventListener("change", (e)=> {
