@@ -29,6 +29,7 @@ a {
 
 body {
   overflow: auto;
+  height: 100vh;
 }
 
 ::-webkit-scrollbar {
@@ -423,22 +424,31 @@ body {
   gap: 10px;
 }
 
+.empresas-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  width: 90%;
+}
+
 .empresas-titulo {
   font-size: 2rem;
   font-weight: bolder;
   max-width: 100%;
 }
 
-.empresas-texto {
+.empresas-paragrafo {
   font-size: 1.25rem;
   text-align: center;
 }
 
-.container-cima {
+.empresas-cima {
   display: flex;
 }
 
-.container-baixo {
+.empresas-baixo {
   display: flex;
 }
 
@@ -472,7 +482,7 @@ body {
 }
 
 .h1-contato {
-    color: #417cb7;
+    color: var(--cor-primaria);
     font-size: 2rem;
     text-align: center;
     margin-bottom: 30px;
@@ -542,7 +552,7 @@ textarea {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #CCC;
     box-sizing: border-box;
     resize: none;
 }
@@ -550,19 +560,19 @@ textarea {
 input[type="submit"], input[type="reset"] {
     width: 49.5%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #CCC;
     border-radius: 4px;
 }
 
 input[type="submit"] {
-    background-color: #417cb7;
-    color: white;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     cursor: pointer;
 }
 
 input[type="reset"] {
     background-color: #ee6970;
-    color: white;
+    color: var(--cor-secundaria);
     cursor: pointer;
 }
 
@@ -577,7 +587,7 @@ input[type="reset"] {
   padding: .2rem .3rem;
   width: auto;
   display: block;
-  background-color: #202020;
+  background-color: var(--cor-terciaria);
 }
 
 input.error {

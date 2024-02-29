@@ -3,6 +3,41 @@
 
 
 /* ------------------------ PÁGINA HOME ------------------------ */
+
+let time = 5000;
+let cont=0;
+
+let banner1 = "./img/banner_home_01.png";
+let banner2 = "./img/banner_home_02.png";
+let banner3 = "./img/banner_home_03.png";
+
+function trocarBanner(){
+
+    cont++;
+    switch(cont){
+
+        case 1:
+            document.getElementById("slider").src = banner2;
+            break;
+        case 2:
+            document.getElementById("slider").src = banner3;
+            break;
+        default:
+            cont=0;
+            document.getElementById("slider").src = banner1;
+    }
+}
+
+function start(){
+
+    setInterval(() => {
+
+        trocarBanner();
+    }, time)
+}
+
+window.addEventListener("load", start);
+
 /* ------------------------------------------------------------- */
 
 
