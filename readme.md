@@ -2,19 +2,16 @@
 
 Olá! Bem vindo ao meu projeto de site EcoCity.
 
-![image](https://github.com/RafaelHzn/proz_EcoCity_teste/blob/main/img/EcoCity.jpg)
+![image](https://github.com/RafaelHzn/proz_EcoCity_teste/blob/main/img/ecocity_home.png)
 
-## Projeto desenvolvido no curso da PROZ Educacional / Portal Tech Turma 19
-### Início do Projeto: Dezembro de 2023.
-### Previsão de conclusão: Março de 2024.
+# Projeto desenvolvido no curso da PROZ Educacional / Portal Tech Turma 19
+## Início do Projeto: Dezembro de 2023.
+## Previsão de conclusão: Março de 2024.
 
-## Ferramentas utilizadas:
-
-* Javascript
-
-* HTML
-
-* CSS
+# Ferramentas utilizadas:
+## Javascript
+## HTML
+## CSS
 
 <br>
 
