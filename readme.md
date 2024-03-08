@@ -52,3 +52,5 @@ Rafael da Costa Ferreira
 <a href="https://br.freepik.com/fotos-gratis/conceito-de-tecnologia-de-eletricidade-de-energia-verde-de-turbina_3001604.htm#query=energia%20e%C3%B3lica&position=3&from_view=search&track=ais&uuid=acdfc6cd-993c-477e-935a-871ede535787">Imagem de rawpixel - Freepik</a> 
 
 <a href="https://pixabay.com/pt/users/nature_design-16152932/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5241253"> Imagem de eko pramono - Pixabay</a>
+
+<a href="https://br.freepik.com/fotos-gratis/vista-da-cidade-urbana-futurista_71935443.htm#fromView=search&page=1&position=8&uuid=e58afb1f-2140-4c0a-9529-bb11154be90c">Imagem de Freepik</a>
