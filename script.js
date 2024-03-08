@@ -41,7 +41,9 @@ window.addEventListener("load", start);
 /* ------------------------------------------------------------- */
 
 
-/* ----------------------- PÁGINA CtelS ----------------------- */
+/* ----------------------- PÁGINA CIDADES ----------------------- */
+
+
 /* -------------------------------------------------------------- */
 
 
@@ -81,7 +83,7 @@ let btnEnviar = document.querySelector('button[type="submint"]')
 // Botão Limpar:
 let btnLimpar = document.querySelector('button[type="submint"]')
 
-// --- Exibit e ocultar pop-up de campos obrigatórios
+// --- Exibir e ocultar pop-up de campos obrigatórios
 function mostrarPopup(input, label) {
     // Exibir popup de um campo obrigatório
     input.addEventListener ("focus", () => {
@@ -93,12 +95,14 @@ function mostrarPopup(input, label) {
     });
 }
 
+// --- Estilos dinâmicos para 'Input Correto'
 function estilizarInputCorreto(input, helper) {
     input.classList.add("correct");
     input.classList.remove("error");
     helper.classList.remove("visible");
 }
 
+// --- Estilos dinâmicos para 'Input Incorreto'
 function estilizarInputIncorreto(input, helper) {
     input.classList.remove("correct");
     input.classList.add("error");
@@ -111,57 +115,56 @@ mostrarPopup(telInput, telLabel);
 mostrarPopup(messageInput, messageLabel);
 
 // --- Validação de nome
-// nomeInput.addEventListener("change", (e)=> {
-//     let valor = e.target.value;
-//     if (valor.length < 3) {
-//         //Estilo dinâmico para nome incorreto
-//         nomeHelper.innerText = "O nome precisa ter 3 ou mais caracteres.";
-//         estilizarInputIncorreto(nomeInput, nomeHelper);
-//     } else {
-//         //Estilo dinâmico para nome correto
-//         estilizarInputCorreto(nomeInput, nomeHelper);
-//     }
-// })
+nomeInput.addEventListener("change", (e)=> {
+    let valor = e.target.value;
+    if (valor.length < 3) {
+        //Estilo dinâmico para nome incorreto
+        nomeHelper.innerText = "O nome precisa ter 3 ou mais caracteres.";
+        estilizarInputIncorreto(nomeInput, nomeHelper);
+    } else {
+        //Estilo dinâmico para nome correto
+        estilizarInputCorreto(nomeInput, nomeHelper);
+    }
+})
 
 // // --- Validação de e-mail
-// emailInput.addEventListener("change", (e)=> {
-//     let valor = e.target.value;
-//     if (valor.includes("@") && valor.includes(".com")) {
-//         //Estilo dinâmico para e-mail válido
-//         estilizarInputCorreto(emailInput, emailHelper);   
-//     } else {
-//         //Estilo dinâmico para e-mail inválido
-//         emailHelper.innerText = "Insira um e-mail válido.";
-//         estilizarInputIncorreto(emailInput, emailHelper); 
-//     }
-// })
+emailInput.addEventListener("change", (e)=> {
+    let valor = e.target.value;
+    if (valor.includes("@") && valor.includes(".com")) {
+        //Estilo dinâmico para e-mail válido
+        estilizarInputCorreto(emailInput, emailHelper);   
+    } else {
+        //Estilo dinâmico para e-mail inválido
+        emailHelper.innerText = "Insira um e-mail válido.";
+        estilizarInputIncorreto(emailInput, emailHelper); 
+    }
+})
 
 // // --- Validação de telefone
-// telInput.addEventListener("change", (e)=> {
-//     let valor = e.target.value;
-//     if (valor < 18) {
-//         //Estilo dinâmico para tel abaixo de 18 anos
-//         telHelper.innerText = "Você tem menos de 18 anos.";
-//         estilizarInputIncorreto(telInput, telHelper);
-//     } else {
-//         //Estilo dinâmico para tel acima de 18 anos
-//         estilizarInputCorreto(telInput, telHelper);
-//     }
-// })
+telInput.addEventListener("change", (e)=> {
+    let valor = e.target.value;
+    if (valor.length < 11){
+        //Estilo dinâmico para tel com menos de 11 caracteres
+        telHelper.innerText = "Digite seu número com DDD. Apenas números.";
+        estilizarInputIncorreto(telInput, telHelper);
+    } else {
+        //Estilo dinâmico para tel com mais de 11 caracteres
+        estilizarInputCorreto(telInput, telHelper);
+    }
+})
 
 // // --- Validação de mensagem
-// messageInput.addEventListener("blur", (e)=> {
-//     let valor = e.target.value;
-//     if (valor == "") {
-//         //Estilo dinâmico para message incorreta
-//         messageHelper.innerText = "O campo não pode estar vazio.";
-//         estilizarInputIncorreto(messageInput, messageHelper);
-//     } else {
-//         //Estilo dinâmico para message correta
-//         messageHelper.innerText = "message correta";
-//         estilizarInputCorreto(messageInput, messageHelper);
-//     }
-// })
+messageInput.addEventListener("change", (e)=> {
+    let valor = e.target.value;
+    if (valor.length > 270) {
+        //Estilo dinâmico para message incorreta
+        messageHelper.innerText = "Sua mensagem deve ter no máximo 270 caracteres.";
+        estilizarInputIncorreto(messageInput, messageHelper);
+    } else {
+        //Estilo dinâmico para message correta
+        estilizarInputCorreto(messageInput, messageHelper);
+    }
+})
 
 /* -------------------------------------------------------------- */
 

@@ -549,7 +549,7 @@ label {
     position: relative;
 }
 
-label:not(:first-of-type){
+label:not(:first-of-type) {
   margin-top: 1rem;
 }
 
@@ -559,8 +559,10 @@ label:not(:first-of-type){
   color: darkred;
 }
 
-input[type="text"], input[type="email"], input[type="tel"],
-textarea {
+input[type="text"], 
+input[type="email"], 
+input[type="tel"],
+textarea[id="message"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -570,7 +572,8 @@ textarea {
     resize: none;
 }
 
-input[type="submit"], input[type="reset"] {
+input[type="submit"], 
+input[type="reset"] {
     width: 49.5%;
     padding: 8px;
     border: 1px solid #CCC;
