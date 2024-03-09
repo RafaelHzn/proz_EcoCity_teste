@@ -43,53 +43,90 @@ window.addEventListener("load", start);
 
 /* ----------------------- PÁGINA CIDADES ----------------------- */
 
-// const arrayCidades = [
-// {
-//     imagem: ""/* src="/img/recursos_naturais.jpg" alt="recursos naturais" */,
-//     titulo: "Gestão dos recursos naturais",
-//     paragrafo: "A proteção dos mananciais e a redução do desperdício de água são primordiais. Aproveitamento da água da chuva, reuso, construções sustentáveis, dessalinização e despoluição são outros pontos importantes. Além disso, a eficiência energética é necessária, logo, serão priorizadas energias renováveis, como solar e eólica.",
-// },
-// {
-//     imagem: ""/* src="/img/residuos_solidos.jpg" alt="residuos solidos" */,
-//     titulo: "Destinação dos resíduos sólidos",
-//     paragrafo: "A responsabilidade é compartilhada, ou seja, indústria, distribuidores, prefeituras e consumidores serão os responsáveis pelos resíduos sólidos e cada um deverá contribuir para que tenham uma disposição final adequada. Reutilização, reciclagem, substituição de matérias-primas, uso de embalagens mais sustentáveis e métodos mais eficientes de produção estão entre as soluções para alcançar a sustentabilidade nesse quesito.",
-// },
-// {
-//     imagem: ""/* src="/img/transporte.jpg" alt="meios de transporte" */,
-//     titulo: "Meios de transporte limpos",
-//     paragrafo: "Naturalmente haverá uma diminuição dos carros na rua. A mobilidade deve ser limpa, usando carros elétricos e investindo em transporte público de alto rendimento. É preciso fazer a gestão do uso do solo e uma distribuição mais equilibrada do espaço viário para ser bem-sucedido.",
-// },
-// {
-//     imagem: ""/* src="/img/areas_verdes.jpg" alt="areas verdes" */,
-//     titulo: "Investimento em áreas verdes",
-//     paragrafo: "Não só em parques, mas em canteiros, avenidas e calçadas. Projetos de plantio de árvores e outras iniciativas para trazer a natureza para o espaço urbano. Painéis solares e hortas no telhadoajudarão na geração de energia renovável e na produção agrícola em pequena escala. É importante lembrar que a tarefa de construir um futuro sustentável nas cidades é responsabilidade de todos, mas diversas ações já devem entrar na rotina diária das pessoas e empresas.",
-// },
-// ]
+const arrayCidades = [
+{
+    imagem: "/img/recursos_naturais.jpg", alt:"imagem recursos naturais",
+    titulo: "Gestão dos recursos naturais", 
+    paragrafo: "A proteção dos mananciais e a redução do desperdício de água são primordiais. Aproveitamento da água da chuva, reuso, construções sustentáveis, dessalinização e despoluição são outros pontos importantes. Além disso, a eficiência energética é necessária, logo, serão priorizadas energias renováveis, como solar e eólica.",
+},
+{
+    imagem: "/img/residuos_solidos.jpg", alt:"imagem residuos sólidos",
+    titulo: "Destinação dos resíduos sólidos", 
+    paragrafo: "A responsabilidade é compartilhada, ou seja, indústria, distribuidores, prefeituras e consumidores serão os responsáveis pelos resíduos sólidos e cada um deverá contribuir para que tenham uma disposição final adequada. Reutilização, reciclagem, substituição de matérias-primas, uso de embalagens mais sustentáveis e métodos mais eficientes de produção estão entre as soluções para alcançar a sustentabilidade nesse quesito.",
+},
+{
+    imagem: "/img/transporte.jpg", alt:"imagem transportes limpos",
+    titulo: "Meios de transporte limpos",
+    paragrafo: "Naturalmente haverá uma diminuição dos carros na rua. A mobilidade deve ser limpa, usando carros elétricos e investindo em transporte público de alto rendimento. É preciso fazer a gestão do uso do solo e uma distribuição mais equilibrada do espaço viário para ser bem-sucedido.",
+},
+{
+    imagem: "/img/residuos_solidos.jpg", alt:"imagem areas verdes",
+    titulo: "Investimento em áreas verdes",
+    paragrafo: "Não só em parques, mas em canteiros, avenidas e calçadas. Projetos de plantio de árvores e outras iniciativas para trazer a natureza para o espaço urbano. Painéis solares e hortas no telhadoajudarão na geração de energia renovável e na produção agrícola em pequena escala. É importante lembrar que a tarefa de construir um futuro sustentável nas cidades é responsabilidade de todos, mas diversas ações já devem entrar na rotina diária das pessoas e empresas.",
+},
+]
 
-// for(let i = 0; i < arrayCidades.length; i++){
-//     // Criar um elemento:
-//     let article = document.createElement("article")
+for(let i = 0; i < arrayCidades.length; i++){
+    // Criar um elemento:
+    let cidadesMidBox = document.createElement("div")
 
-//     // Manipular o elemento criado:
-//     article.id = `${i+1}`
+    // Adicionar uma 'class' à 'div' criada
+    cidadesMidBox.classList.add("cidades-mid-box");
 
-//     article.innerHTML =`
-//     <div class="cidades-mid-box">
-//     <img class="cidades-mid-box-img" ${arrayCidades[i].imagem}>
-//     <h4 class="cidades-mid-box-titulo">${arrayCidades[i].titulo}</h4>
-//     <p class="cidades-mid-box-paragrafo">${arrayCidades[i].paragrafo}</p>
-//     </div>
-//     `
+    // ???
+    cidadesMidBox.innerHTML =`
+    <img class="cidades-mid-box-img" src="${arrayCidades[i].imagem}" alt="${arrayCidades[i].alt}">
+    <h4 class="cidades-mid-box-titulo">${arrayCidades[i].titulo}</h4>
+    <p class="cidades-mid-box-paragrafo">${arrayCidades[i].paragrafo}</p>
+    `
 
-//     // Adicionar o elemento criado e manipulado na página:
-//     let cidadesMid = document.querySelector("section.cidades-mid")
-//     cidadesMid.appendChild(article)
-// }
+    // Adicionar o elemento criado e manipulado na página:
+    let cidadesMid = document.querySelector("section.cidades-mid")
+    cidadesMid.appendChild(cidadesMidBox)
+}
 
 /* -------------------------------------------------------------- */
 
 
 /* ----------------------- PÁGINA ENERGIA ----------------------- */
+
+const arrayEnergia = [
+{
+    imagem: "/img/energia_solar.jpg", alt:"imagem energia solar",
+    titulo: "Energia Solar", 
+    paragrafo: "É capturada através de painéis fotovoltaicos, compostos por células que convertem a luz do sol em eletricidade. Essa tecnologia utiliza a luz solar como fonte inesgotável para gerar energia limpa e renovável. Seus benefícios são notáveis: é uma fonte sustentável, não emite poluentes durante a geração de eletricidade e reduz a dependência de fontes não renováveis.",
+},
+{
+    imagem: "/img/energia_hidreletrica.jpg", alt:"imagem energia hidrelétrica",
+    titulo: "Energia Hidrelétrica", 
+    paragrafo: "É gerada através da força da água em movimento. A energia cinética proveniente de rios ou quedas d'água é capturada por meio de turbinas, que acionam geradores para produzir eletricidade. Esse processo aproveita o ciclo natural da água, sem consumi-la, tornando-se uma fonte renovável e limpa de energia.",
+},
+{
+    imagem: "/img/energia_eolica.jpg", alt:"imagem energia eólica",
+    titulo: "Energia Eólica",
+    paragrafo: "É o processo pelo qual o vento é transformado em energia cinética e, posteriormente, em eletricidade. A conversão da energia do ar em movimento em eletricidade é conhecida como energia eólica. Nesse processo, a energia do vento movimenta pás/hélices, cujo movimento é convertido em energia elétrica nas turbinas por meio de um gerador.",
+},
+]
+
+for(let i = 0; i < arrayEnergia.length; i++){
+    // Criar um elemento:
+    let energiaMidBox = document.createElement("div")
+
+    // Adicionar uma 'class' à 'div' criada
+    energiaMidBox.classList.add("energia-mid-box");
+
+    // ???
+    energiaMidBox.innerHTML =`
+    <img class="energia-mid-box-img" src="${arrayEnergia[i].imagem}" alt="${arrayEnergia[i].alt}">
+    <h4 class="energia-mid-box-titulo">${arrayEnergia[i].titulo}</h4>
+    <p class="energia-mid-box-paragrafo">${arrayEnergia[i].paragrafo}</p>
+    `
+
+    // Adicionar o elemento criado e manipulado na página:
+    let energiaMid = document.querySelector("section.energia-mid")
+    energiaMid.appendChild(energiaMidBox)
+}
+
 /* -------------------------------------------------------------- */
 
 
