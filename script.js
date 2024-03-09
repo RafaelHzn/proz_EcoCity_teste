@@ -42,45 +42,48 @@ window.addEventListener("load", start);
 
 
 /* ----------------------- PÁGINA CIDADES ----------------------- */
+
 // const arrayCidades = [
 // {
-//     imagem: src="/img/recursos_naturais.jpg" alt="recursos naturais",
+//     imagem: ""/* src="/img/recursos_naturais.jpg" alt="recursos naturais" */,
 //     titulo: "Gestão dos recursos naturais",
 //     paragrafo: "A proteção dos mananciais e a redução do desperdício de água são primordiais. Aproveitamento da água da chuva, reuso, construções sustentáveis, dessalinização e despoluição são outros pontos importantes. Além disso, a eficiência energética é necessária, logo, serão priorizadas energias renováveis, como solar e eólica.",
 // },
 // {
-//     imagem: src="/img/residuos_solidos.jpg" alt="residuos solidos",
+//     imagem: ""/* src="/img/residuos_solidos.jpg" alt="residuos solidos" */,
 //     titulo: "Destinação dos resíduos sólidos",
 //     paragrafo: "A responsabilidade é compartilhada, ou seja, indústria, distribuidores, prefeituras e consumidores serão os responsáveis pelos resíduos sólidos e cada um deverá contribuir para que tenham uma disposição final adequada. Reutilização, reciclagem, substituição de matérias-primas, uso de embalagens mais sustentáveis e métodos mais eficientes de produção estão entre as soluções para alcançar a sustentabilidade nesse quesito.",
 // },
 // {
-//     imagem: src="/img/transporte.jpg" alt="meios de transporte",
+//     imagem: ""/* src="/img/transporte.jpg" alt="meios de transporte" */,
 //     titulo: "Meios de transporte limpos",
 //     paragrafo: "Naturalmente haverá uma diminuição dos carros na rua. A mobilidade deve ser limpa, usando carros elétricos e investindo em transporte público de alto rendimento. É preciso fazer a gestão do uso do solo e uma distribuição mais equilibrada do espaço viário para ser bem-sucedido.",
 // },
 // {
-//     imagem: src="/img/areas_verdes.jpg" alt="areas verdes",
+//     imagem: ""/* src="/img/areas_verdes.jpg" alt="areas verdes" */,
 //     titulo: "Investimento em áreas verdes",
 //     paragrafo: "Não só em parques, mas em canteiros, avenidas e calçadas. Projetos de plantio de árvores e outras iniciativas para trazer a natureza para o espaço urbano. Painéis solares e hortas no telhadoajudarão na geração de energia renovável e na produção agrícola em pequena escala. É importante lembrar que a tarefa de construir um futuro sustentável nas cidades é responsabilidade de todos, mas diversas ações já devem entrar na rotina diária das pessoas e empresas.",
 // },
 // ]
 
 // for(let i = 0; i < arrayCidades.length; i++){
-// // Criar um elemento:
-// let article = document.createElement("article")
+//     // Criar um elemento:
+//     let article = document.createElement("article")
 
-// // Manipular o elemento criado:
-// article.id = `post-${i+1}`
+//     // Manipular o elemento criado:
+//     article.id = `${i+1}`
 
-// article.innerHTML =`
-// <img class="cidades-mid-box-img">${arrayCidades[i].img}>
-// <h3 class"cidades-mid-box-titulo">${arrayCidades[i].titulo}</h3>
-// <p class"cidades-mid-box-paragrafo">${arrayCidades[i].paragrafo}</p>
-// `
+//     article.innerHTML =`
+//     <div class="cidades-mid-box">
+//     <img class="cidades-mid-box-img" ${arrayCidades[i].imagem}>
+//     <h4 class="cidades-mid-box-titulo">${arrayCidades[i].titulo}</h4>
+//     <p class="cidades-mid-box-paragrafo">${arrayCidades[i].paragrafo}</p>
+//     </div>
+//     `
 
-// // Adicionar o elemento criado e manipulado na página:
-// let cidadesMid = document.querySelector("cidades-mid")
-// cidadesMid.appendChild(article)
+//     // Adicionar o elemento criado e manipulado na página:
+//     let cidadesMid = document.querySelector("section.cidades-mid")
+//     cidadesMid.appendChild(article)
 // }
 
 /* -------------------------------------------------------------- */
@@ -166,7 +169,7 @@ nomeInput.addEventListener("change", (e)=> {
     }
 })
 
-// // --- Validação de e-mail
+// --- Validação de e-mail
 emailInput.addEventListener("change", (e)=> {
     let valor = e.target.value;
     if (valor.includes("@") && valor.includes(".com")) {
@@ -179,10 +182,10 @@ emailInput.addEventListener("change", (e)=> {
     }
 })
 
-// // --- Validação de telefone
+// --- Validação de telefone
 telInput.addEventListener("change", (e)=> {
     let valor = e.target.value;
-    if (valor.length < 11){
+    if (valor.length < 11 || valor.length >11) {
         //Estilo dinâmico para tel com menos de 11 caracteres
         telHelper.innerText = "Digite seu número com DDD. Apenas números.";
         estilizarInputIncorreto(telInput, telHelper);
@@ -192,7 +195,7 @@ telInput.addEventListener("change", (e)=> {
     }
 })
 
-// // --- Validação de mensagem
+// --- Validação de mensagem
 messageInput.addEventListener("change", (e)=> {
     let valor = e.target.value;
     if (valor.length > 270) {

@@ -529,8 +529,9 @@ textarea[id="message"] {
 
 input[type="submit"], 
 input[type="reset"] {
-    width: 49.5%;
-    padding: 8px;
+    width: 49%;
+    height: 15%;
+    padding: 1%;
     border: 1px solid #CCC;
     border-radius: 4px;
 }
